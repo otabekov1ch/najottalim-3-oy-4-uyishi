@@ -1,0 +1,64 @@
+.butt {
+    width: 132px;
+    height: 30px !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 640px) { 
+    .contener {
+        display: flex !important;
+        justify-content: center !important; 
+        align-content: center;
+        margin-left: 1px!important;
+    }
+    .col-3{ 
+        display: none;
+    }
+    .alert {
+        width: 100% !important;
+    }
+    .col-9{
+        width: 100% !important;
+        justify-content: center !important;
+    }
+    .modal-bttn  {
+        display: flexbox;
+        position: absolute;
+        top: 40px;
+        left: 40vh;
+        float: right;
+    }
+    .butt {
+        width: auto!important;
+        font-size: auto!important;
+        margin-right: ;
+    }
+    .card {
+        width: 110px;
+    }
+    .title {
+        display: flexbox;
+        text-align: center;
+    }
+    .form-cantrol , .form-select {
+            width: 100%!important;
+    }
+    .form {
+        margin: 15px 15px;
+    }
+    .bookmake {
+        margin: 15px 15px;
+    }
+    .form select {
+        width: 
+    }
+    .form select:focus {
+        min-width: 100% !important;
+        width: 100% !important;
+    }    
+ }
+ @media (min-width: 575px) { 
+     .modall {
+        display: none !important;
+ }}
